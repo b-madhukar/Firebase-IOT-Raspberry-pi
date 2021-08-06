@@ -9,9 +9,11 @@ config = {
 
 
 Secret key 
+
 you will find secret key at, In Project Overview --> Project settings --> Service accounts -->Database Secrets (Click on show)
 
 Project ID
+
 You will find Project ID at, In Project Overview --> General (Your project) 
 
 Domain URL
