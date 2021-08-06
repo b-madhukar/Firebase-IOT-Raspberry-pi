@@ -5,9 +5,9 @@ import random
 import sys 
 config = {     
   "apiKey": "UaNnD4O1nSuvv1k55vSxq46pJSwJBJXzbQKzRgQq",
-  "authDomain": "home2-9fb78.firebaseapp.com",
-  "databaseURL": "https://home2-9fb78-default-rtdb.firebaseio.com/",
-  "storageBucket": "home2-9fb78.appspot.com"
+  "authDomain": "home2-9f8.firebaseapp.com",
+  "databaseURL": "https://home2-9f8-default-rtdb.firebaseio.com/",
+  "storageBucket": "home2-b78.appspot.com"
 }
 
 firebase = pyrebase.initialize_app(config)  
