@@ -21,11 +21,17 @@ Domain URL
 You will find domain url at , In RealTime Database --> Data (Complete link you need to copy)
 
 To get values from cloud 
+
 firebase = pyrebase.initialize_app(config)  
+
 database = firebase.database()
+
 val = database.child("Prod1").get().val()
 
 To set values to cloud
+
 firebase = pyrebase.initialize_app(config)  
+
 database = firebase.database()
+
 database.child("Prod1").set("Sample")
